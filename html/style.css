@@ -1,0 +1,97 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    width: 100%;
+    min-height: 100vh; /* Ensure minimum height to fill the viewport */
+    position: relative; /* Set body position to relative */
+
+}
+
+.note {
+    font-size :18px;
+    left : 10px;
+    position: absolute;
+    color: #F6E4F6;
+    top: 0;
+}
+
+.container1 {
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    background-color: #2B2B2B;
+    width: 100%;
+     z-index: 1000;
+     border :  solid;
+     border-radius: 15px;
+     border-color : #fff;
+
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    height: 80px;
+    width: 145px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.programming {
+    padding-left: 20px;
+}
+
+.laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.paragraph {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.paragraph2 {
+    font-size: 20px;
+}
+
+.para {
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.para2 {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.java {
+    position: absolute;
+    margin-right: 10px;
+    top: 250px;
+    left: 10px;
+}
+.insta{
+width :23px;
+height:23px;
+}
+footer {
+    position: absolute; /* Set position to absolute */
+    width: 100%;
+    background-color: #2B2B2B;
+    color: #84DCC6;
+    text-align: center;
+    padding: 10px;
+    margin-top :2800px;
+    clear : both;
+
+   // bottom: 0;
+}
